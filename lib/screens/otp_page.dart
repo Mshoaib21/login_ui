@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_ui/screens/dashboard_page.dart';
 
 class OtpPage extends StatefulWidget {
   const OtpPage({Key? key}) : super(key: key);
@@ -99,9 +100,8 @@ class _OtpPageState extends State<OtpPage> {
                   ),
                   child: const Text('Sign in',style: TextStyle(fontSize: 30,color: Colors.black),),
                   onPressed: () {
-                    // print(nameController.text);
-                    // print(passwordController.text);
-                    Navigator.pop(context);
+
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>Dashboard()));
                   },
                 )
             ),

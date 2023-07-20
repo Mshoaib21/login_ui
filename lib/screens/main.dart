@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:login_ui/screens/dashboard_page.dart';
+import 'package:login_ui/screens/login_page.dart';
 import 'package:login_ui/screens/otp_page.dart';
 //import 'package:login_ui/login_page.dart';
 import 'package:login_ui/screens/splash_screen.dart';
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SplashScreen(),
+      home: Dashboard(),
     );
   }
 }

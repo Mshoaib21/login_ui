@@ -144,9 +144,9 @@ class _LoginPageState extends State<LoginPage> {
                           borderRadius: BorderRadius.circular(20)),
                       primary: Color(0xff85E9FF),
                     ),
-                    child: const Text(
+                    child:  Text(
                       'Create new Account',
-                      style: TextStyle(fontSize:25, color: Colors.white),
+                      style: TextStyle(fontSize:MediaQuery.of(context).size.width*0.06, color: Colors.white),
                     ),
                     onPressed: () {
                       Navigator.push(
